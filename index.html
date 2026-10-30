@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>A Little Something for You ♥</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scene" id="scene">
+    <div class="cloud cloud-one"></div>
+    <div class="cloud cloud-two"></div>
+    <div class="cloud cloud-three"></div>
+
+    <div class="headline" id="headline">
+      <span>A little flower, just for you</span>
+      <small>watch it grow ♡</small>
+    </div>
+
+    <div class="plant-scene" id="plantScene" aria-label="A flower blooming in a vase">
+      <div class="sparkle sparkle-one">✦</div>
+      <div class="sparkle sparkle-two">✧</div>
+      <div class="sparkle sparkle-three">✦</div>
+
+      <div class="flower-plant" id="flowerPlant">
+        <div class="stem"></div>
+        <div class="leaf leaf-left"></div>
+        <div class="leaf leaf-right"></div>
+        <div class="bloom" id="bloom">
+          <span class="petal petal-1"></span>
+          <span class="petal petal-2"></span>
+          <span class="petal petal-3"></span>
+          <span class="petal petal-4"></span>
+          <span class="petal petal-5"></span>
+          <span class="petal petal-6"></span>
+          <span class="flower-center"></span>
+        </div>
+      </div>
+
+      <div class="vase">
+        <div class="vase-neck"></div>
+        <div class="vase-body">
+          <div class="vase-heart">♡</div>
+        </div>
+        <div class="vase-rim"></div>
+      </div>
+      <div class="ground-shadow"></div>
+    </div>
+
+    <div class="hint" id="hint">Growing a little happiness for you ♡</div>
+
+    <div class="controls">
+      <button class="round replay-button" id="replayButton" aria-label="Replay flower animation">↻</button>
+      <button class="round heart-button" id="heartButton" aria-label="Send a heart">♡</button>
+      <button class="round mail-button" id="mailButton" aria-label="Open letter">✉<span class="badge">1</span></button>
+    </div>
+  </main>
+
+  <div class="overlay" id="overlay" aria-hidden="true">
+    <article class="letter">
+      <button class="close" id="closeLetter" aria-label="Close letter">×</button>
+      <div class="letter-title">Dear Ariel,</div>
+      <p id="letterText">Hi! I've been trying to find the right way to say this,
+         but the truth is, ta is ra emel tayo. Every time we play I know pabuhat ka
+          but its okay. I made this little flower grow 
+          just for you, to show you how special you are to me. No pressure at all—just 
+          really wanted you to know kaya kitang buhatin.</p>
+      <p class="signature">From, Mashikip ♡</p>
+      <div class="letter-footer"><span>MADE WITH LOVE</span><span>A LITTLE NOTE FOR YOU</span></div>
+    </article>
+  </div>
+
+  <div class="toast" id="toast">A heart for you! ♥</div>
+  <script src="script.js"></script>
+</body>
+</html>
