@@ -80,11 +80,11 @@ body {
 .round:hover { transform:translateY(-3px) scale(1.05); background:linear-gradient(145deg,#294b7a,#122849); box-shadow:0 8px 20px #05070d80,inset 0 1px #ffffff26; }
 .replay-button { color:#ff5265; }
 .heart-button { color:var(--soft-red); }
-.mail-button { position:relative; background:linear-gradient(145deg,#f15868,#cf2f45); color:white; font-size:19px; border-color:#ff9ba5; }
-.badge { position:absolute; top:-4px; right:-2px; border-radius:50%; background:#080b14; color:#ff5265; font-size:9px; width:15px; height:15px; line-height:15px; }
+/* .mail-button { position:relative; background:linear-gradient(145deg,#f15868,#cf2f45); color:white; font-size:19px; border-color:#ff9ba5; } */
+/* .badge { position:absolute; top:-4px; right:-2px; border-radius:50%; background:#080b14; color:#ff5265; font-size:9px; width:15px; height:15px; line-height:15px; }
 .overlay { position:fixed; inset:0; background:#05070dd9; display:grid; place-items:center; padding:18px; opacity:0; visibility:hidden; transition:opacity .25s,visibility .25s; z-index:10; }
-.overlay.open { opacity:1; visibility:visible; }
-.letter { position:relative; width:min(100%,390px); min-height:min(470px,calc(100vh - 36px)); max-height:calc(100vh - 36px); overflow-y:auto; padding:32px 28px 54px; border:1px solid #5790f3; border-radius:20px; background:radial-gradient(ellipse at 100% 0%,#ed33481c,transparent 42%),linear-gradient(145deg,#172744,#0d1930); box-shadow:0 18px 50px #00000080,0 0 28px #3478f633; color:#e4edff; }
+.overlay.open { opacity:1; visibility:visible; } */
+/* .letter { position:relative; width:min(100%,390px); min-height:min(470px,calc(100vh - 36px)); max-height:calc(100vh - 36px); overflow-y:auto; padding:32px 28px 54px; border:1px solid #5790f3; border-radius:20px; background:radial-gradient(ellipse at 100% 0%,#ed33481c,transparent 42%),linear-gradient(145deg,#172744,#0d1930); box-shadow:0 18px 50px #00000080,0 0 28px #3478f633; color:#e4edff; }
 .letter::before { content:''; position:absolute; inset:8px; border:1px dashed #7da7ef55; border-radius:14px; pointer-events:none; }
 .letter-title { position:relative; font-family:'Quicksand',sans-serif; color:#ff8791; font-size:22px; font-weight:700; margin-bottom:22px; }
 .letter p { position:relative; font-family:'Quicksand',sans-serif; font-size:15px; font-weight:500; line-height:1.8; letter-spacing:.1px; margin:0 0 18px; color:#e4edff; }
@@ -92,7 +92,7 @@ body {
 .note-letter-char { display:inline-block; animation:note-letter-appear .2s ease-out both; }
 .letter .signature { text-align:right; margin-top:22px; color:#ff8791; font-weight:600; }
 .close { position:absolute; top:13px; right:16px; z-index:2; border:0; background:transparent; color:#ff8791; font-size:25px; cursor:pointer; }
-.letter-footer { position:absolute; bottom:17px; left:25px; right:25px; display:flex; justify-content:space-between; font-size:8px; letter-spacing:1px; color:#a9c8ff; }
+.letter-footer { position:absolute; bottom:17px; left:25px; right:25px; display:flex; justify-content:space-between; font-size:8px; letter-spacing:1px; color:#a9c8ff; } */
 .toast { position:fixed; left:50%; bottom:24px; transform:translate(-50%,20px); background:#101827; border:1px solid #3478f6; color:#dce9ff; padding:12px 18px; border-radius:25px; box-shadow:0 5px 20px #00000080; opacity:0; pointer-events:none; transition:.25s; z-index:20; font-size:13px; }
 .toast.show { opacity:1; transform:translate(-50%,0); }
 .firework-rocket { position:absolute; z-index:5; width:7px; height:12px; border-radius:50%; background:#fff; box-shadow:0 0 8px 3px #a9c8ff,0 0 16px 5px #3478f6aa; pointer-events:none; animation:firework-launch .7s cubic-bezier(.15,.65,.3,1) forwards; }
